@@ -19,12 +19,21 @@ class GameScene: StartScene {
         
         titleName()
         
-        startButton = SKSpriteNode (imageNamed: "play.png")
+        startButton = SKSpriteNode (imageNamed: "startButton.png")
         startButton.name = "startButton"
         startButton.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) - 75)
-        startButton.size = CGSizeMake(self.startButton.size.width / 20, self.startButton.size.height / 20)
+        startButton.size = CGSizeMake(self.startButton.size.width / 6, self.startButton.size.height / 6)
         startButton.zPosition = 10
         self.addChild(startButton)
+        
+        var rotateStart = SKAction.rotateByAngle(0.25, duration: 1)
+        var rotateStartBack = SKAction.rotateByAngle(-0.25, duration: 1)
+        var rotateStartNeg = SKAction.rotateByAngle(-0.25, duration: 1)
+        var rotateStartBegin = SKAction.rotateByAngle(0.25, duration: 1)
+
+        var repeatStartSeq = SKAction.repeatActionForever(SKAction.sequence([rotateStart,rotateStartBack,rotateStartNeg,rotateStartBegin]))
+
+        startButton.runAction(repeatStartSeq)
         
         
     }
@@ -54,9 +63,9 @@ class GameScene: StartScene {
     func titleName () {
         
         
-        var frightFlightTitle = SKSpriteNode (imageNamed: "FrightFlightLogo.png")
-        frightFlightTitle.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) + 100)
-        frightFlightTitle.size = CGSizeMake(frightFlightTitle.size.width / 4, frightFlightTitle.size.height / 4)
+        var frightFlightTitle = SKSpriteNode (imageNamed: "BattysBoneyardTitle.png")
+        frightFlightTitle.position = CGPointMake((self.frame.size.width / 2) - 8, (self.frame.size.height / 2) + 100)
+        frightFlightTitle.size = CGSizeMake(frightFlightTitle.size.width / 3, frightFlightTitle.size.height / 3)
         frightFlightTitle.zPosition = 10
         self.addChild(frightFlightTitle)
         
