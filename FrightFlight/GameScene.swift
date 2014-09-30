@@ -21,8 +21,8 @@ class GameScene: StartScene {
         
         startButton = SKSpriteNode (imageNamed: "play.png")
         startButton.name = "startButton"
-        startButton.position = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2 - 30)
-        startButton.size = CGSizeMake(self.startButton.size.width / 12, self.startButton.size.height / 12)
+        startButton.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) - 75)
+        startButton.size = CGSizeMake(self.startButton.size.width / 20, self.startButton.size.height / 20)
         startButton.zPosition = 10
         self.addChild(startButton)
         
@@ -56,6 +56,7 @@ class GameScene: StartScene {
         
         var frightFlightTitle = SKSpriteNode (imageNamed: "FrightFlightLogo.png")
         frightFlightTitle.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) + 100)
+        frightFlightTitle.size = CGSizeMake(frightFlightTitle.size.width / 4, frightFlightTitle.size.height / 4)
         frightFlightTitle.zPosition = 10
         self.addChild(frightFlightTitle)
         
@@ -70,7 +71,7 @@ class GameScene: StartScene {
         
         if node.name == "startButton" {
             
-            let transition = SKTransition.fadeWithColor(SKColor.whiteColor(), duration: 1)
+            let transition = SKTransition.doorsOpenVerticalWithDuration(0.5)
             let scene = StartScene(size: self.size)
             scene.scaleMode = SKSceneScaleMode.AspectFill
             

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3432CCB19DA021A0015300A /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CCA19DA021A0015300A /* GameOver.png */; };
-		D3432CCD19DA03930015300A /* NewGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CCC19DA03930015300A /* NewGameOver.png */; };
 		D3432CD719DA72720015300A /* FrightFlight_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD619DA72720015300A /* FrightFlight_BG.png */; };
+		D3432CD919DA74350015300A /* NewGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD819DA74350015300A /* NewGameOver.png */; };
+		D3432CDB19DA75190015300A /* FrightFlightLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CDA19DA75190015300A /* FrightFlightLogo.png */; };
 		D362259A19D71E460061A7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362259919D71E460061A7A2 /* AppDelegate.swift */; };
 		D362259C19D71E460061A7A2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D362259B19D71E460061A7A2 /* GameScene.sks */; };
 		D362259E19D71E460061A7A2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362259D19D71E460061A7A2 /* GameScene.swift */; };
@@ -37,7 +37,6 @@
 		D36225E519D71FA90061A7A2 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225DE19D71FA90061A7A2 /* refresh.png */; };
 		D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */; };
 		D36225FD19D852670061A7A2 /* Scary Halloween Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */; };
-		D362262719D9FF630061A7A2 /* FrightFlightLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D362262619D9FF630061A7A2 /* FrightFlightLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D3432CCA19DA021A0015300A /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
-		D3432CCC19DA03930015300A /* NewGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGameOver.png; sourceTree = "<group>"; };
 		D3432CD619DA72720015300A /* FrightFlight_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrightFlight_BG.png; sourceTree = "<group>"; };
+		D3432CD819DA74350015300A /* NewGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGameOver.png; sourceTree = "<group>"; };
+		D3432CDA19DA75190015300A /* FrightFlightLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrightFlightLogo.png; sourceTree = "<group>"; };
 		D362259419D71E460061A7A2 /* FrightFlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrightFlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D362259819D71E460061A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D362259919D71E460061A7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +84,6 @@
 		D36225DE19D71FA90061A7A2 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
 		D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipFlopStudiosLogo.png; sourceTree = "<group>"; };
 		D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scary Halloween Font.ttf"; sourceTree = "<group>"; };
-		D362262619D9FF630061A7A2 /* FrightFlightLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrightFlightLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,12 +133,11 @@
 				D36225A119D71E460061A7A2 /* Main.storyboard */,
 				D36225A419D71E460061A7A2 /* Images.xcassets */,
 				D36225D619D71F960061A7A2 /* pipe1.png */,
-				D3432CCC19DA03930015300A /* NewGameOver.png */,
 				D36225D719D71F960061A7A2 /* pipe2.png */,
-				D362262619D9FF630061A7A2 /* FrightFlightLogo.png */,
 				D3432CD619DA72720015300A /* FrightFlight_BG.png */,
+				D3432CDA19DA75190015300A /* FrightFlightLogo.png */,
+				D3432CD819DA74350015300A /* NewGameOver.png */,
 				D36225DA19D71FA90061A7A2 /* play.png */,
-				D3432CCA19DA021A0015300A /* GameOver.png */,
 				D36225DB19D71FA90061A7A2 /* back.png */,
 				D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */,
 				D36225DC19D71FA90061A7A2 /* score.png */,
@@ -282,13 +279,12 @@
 				D36225A519D71E460061A7A2 /* Images.xcassets in Resources */,
 				D36225D919D71F960061A7A2 /* pipe2.png in Resources */,
 				D36225CA19D71F580061A7A2 /* bat_dead.png in Resources */,
+				D3432CDB19DA75190015300A /* FrightFlightLogo.png in Resources */,
 				D36225CD19D71F580061A7A2 /* bat_walk3.png in Resources */,
 				D36225D319D71F580061A7A2 /* eye_bat_walk4.png in Resources */,
 				D36225D119D71F580061A7A2 /* eye_bat_walk2.png in Resources */,
 				D36225D219D71F580061A7A2 /* eye_bat_walk3.png in Resources */,
 				D36225E519D71FA90061A7A2 /* refresh.png in Resources */,
-				D3432CCD19DA03930015300A /* NewGameOver.png in Resources */,
-				D3432CCB19DA021A0015300A /* GameOver.png in Resources */,
 				D36225CF19D71F580061A7A2 /* eye_bat_dead.png in Resources */,
 				D36225E119D71FA90061A7A2 /* play.png in Resources */,
 				D36225E319D71FA90061A7A2 /* score.png in Resources */,
@@ -297,9 +293,9 @@
 				D36225D819D71F960061A7A2 /* pipe1.png in Resources */,
 				D36225CB19D71F580061A7A2 /* bat_walk1.png in Resources */,
 				D36225CE19D71F580061A7A2 /* bat_walk4.png in Resources */,
+				D3432CD919DA74350015300A /* NewGameOver.png in Resources */,
 				D3432CD719DA72720015300A /* FrightFlight_BG.png in Resources */,
 				D36225A319D71E460061A7A2 /* Main.storyboard in Resources */,
-				D362262719D9FF630061A7A2 /* FrightFlightLogo.png in Resources */,
 				D36225D019D71F580061A7A2 /* eye_bat_walk1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

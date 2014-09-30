@@ -59,7 +59,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         //Create label for score
         scoreLabel.fontName = "Scary Halloween Font"
         scoreLabel.fontSize = 60
-        scoreLabel.fontColor = SKColor.greenColor()
+        scoreLabel.fontColor = SKColor.yellowColor()
         scoreLabel.text = "0"
         scoreLabel.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) + 240)
         scoreLabel.alpha = 0
@@ -68,7 +68,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         
         theScoreTitle.fontName = "Scary Halloween Font"
         theScoreTitle.fontSize = 50
-        theScoreTitle.fontColor = SKColor.greenColor()
+        theScoreTitle.fontColor = SKColor.yellowColor()
         theScoreTitle.text = "Score:"
         theScoreTitle.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) + 320)
         theScoreTitle.alpha = 0
@@ -248,7 +248,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
                 gameOverLabel.position = CGPointMake(self.frame.width / 2, self.frame.height + 100)
                 
                 var moveLabelTo = SKAction.moveToY(self.frame.height / 2 + 10, duration: 0.5)
-                var scaleLabel = SKAction.scaleTo(1.5, duration: 0.5)
+                var scaleLabel = SKAction.scaleTo(0.35, duration: 0.5)
                 //var redLabel = SKAction.colorizeWithColor(SKColor .redColor(), colorBlendFactor: 1, duration: 0.5)
                 
                 var groupLabel = SKAction.group([moveLabelTo,scaleLabel])
@@ -367,7 +367,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
                 
             } else if node.name == "backToMenuButton" {
                 
-                let transitionToMenu = SKTransition.fadeWithColor(SKColor.whiteColor(), duration: 1)
+                let transitionToMenu = SKTransition.fadeWithColor(SKColor.greenColor(), duration: 1)
                 let scene = GameScene(size: self.size)
                 scene.scaleMode = SKSceneScaleMode.AspectFill
                 
