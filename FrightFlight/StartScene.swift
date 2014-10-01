@@ -125,7 +125,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         self.addChild(ground)
         
         //Create timer for pipes
-        NSTimer.scheduledTimerWithTimeInterval(1.75, target: self, selector: Selector("makeCollisionObjects"), userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("makeCollisionObjects"), userInfo: nil, repeats: true)
         
         
     }
