@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>536EFDEC-FB71-4A64-9019-348BCDCFE4BF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BattysBoneyard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DB8F852F4555FCA8FCE27751D014E9C0E1E020E3</key>
+		<string>https://github.com/crash0283/FrightFlight.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BattysBoneyard.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DB8F852F4555FCA8FCE27751D014E9C0E1E020E3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/crash0283/FrightFlight.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DB8F852F4555FCA8FCE27751D014E9C0E1E020E3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB8F852F4555FCA8FCE27751D014E9C0E1E020E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BattysBoneyard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
