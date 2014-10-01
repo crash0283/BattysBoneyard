@@ -56,7 +56,7 @@
 		D3497F5919DB1D6D00560637 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
 		D3497F5D19DB2CF300560637 /* restartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restartButton.png; sourceTree = "<group>"; };
 		D3497F6319DB321F00560637 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
-		D362259419D71E460061A7A2 /* FrightFlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrightFlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D362259419D71E460061A7A2 /* BattysBoneyard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattysBoneyard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D362259819D71E460061A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D362259919D71E460061A7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D362259B19D71E460061A7A2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		D36225A219D71E460061A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D36225A419D71E460061A7A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D36225A719D71E460061A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D36225AD19D71E460061A7A2 /* FrightFlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrightFlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36225AD19D71E460061A7A2 /* BattysBoneyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattysBoneyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36225B219D71E460061A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36225B319D71E460061A7A2 /* FrightFlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrightFlightTests.swift; sourceTree = "<group>"; };
 		D36225BD19D71EC30061A7A2 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
@@ -116,8 +116,8 @@
 		D362259519D71E460061A7A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D362259419D71E460061A7A2 /* FrightFlight.app */,
-				D36225AD19D71E460061A7A2 /* FrightFlightTests.xctest */,
+				D362259419D71E460061A7A2 /* BattysBoneyard.app */,
+				D36225AD19D71E460061A7A2 /* BattysBoneyardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,9 +195,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D362259319D71E460061A7A2 /* FrightFlight */ = {
+		D362259319D71E460061A7A2 /* BattysBoneyard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlight" */;
+			buildConfigurationList = D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyard" */;
 			buildPhases = (
 				D362259019D71E460061A7A2 /* Sources */,
 				D362259119D71E460061A7A2 /* Frameworks */,
@@ -207,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = FrightFlight;
+			name = BattysBoneyard;
 			productName = FrightFlight;
-			productReference = D362259419D71E460061A7A2 /* FrightFlight.app */;
+			productReference = D362259419D71E460061A7A2 /* BattysBoneyard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D36225AC19D71E460061A7A2 /* FrightFlightTests */ = {
+		D36225AC19D71E460061A7A2 /* BattysBoneyardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlightTests" */;
+			buildConfigurationList = D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyardTests" */;
 			buildPhases = (
 				D36225A919D71E460061A7A2 /* Sources */,
 				D36225AA19D71E460061A7A2 /* Frameworks */,
@@ -225,9 +225,9 @@
 			dependencies = (
 				D36225AF19D71E460061A7A2 /* PBXTargetDependency */,
 			);
-			name = FrightFlightTests;
+			name = BattysBoneyardTests;
 			productName = FrightFlightTests;
-			productReference = D36225AD19D71E460061A7A2 /* FrightFlightTests.xctest */;
+			productReference = D36225AD19D71E460061A7A2 /* BattysBoneyardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "FrightFlight" */;
+			buildConfigurationList = D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "BattysBoneyard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,8 +261,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D362259319D71E460061A7A2 /* FrightFlight */,
-				D36225AC19D71E460061A7A2 /* FrightFlightTests */,
+				D362259319D71E460061A7A2 /* BattysBoneyard */,
+				D36225AC19D71E460061A7A2 /* BattysBoneyardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -334,7 +334,7 @@
 /* Begin PBXTargetDependency section */
 		D36225AF19D71E460061A7A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D362259319D71E460061A7A2 /* FrightFlight */;
+			target = D362259319D71E460061A7A2 /* BattysBoneyard */;
 			targetProxy = D36225AE19D71E460061A7A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrightFlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -455,7 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrightFlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -474,7 +474,7 @@
 				);
 				INFOPLIST_FILE = FrightFlightTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrightFlight.app/FrightFlight";
 			};
 			name = Debug;
@@ -489,7 +489,7 @@
 				);
 				INFOPLIST_FILE = FrightFlightTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrightFlight.app/FrightFlight";
 			};
 			name = Release;
@@ -497,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "FrightFlight" */ = {
+		D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "BattysBoneyard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D36225B519D71E460061A7A2 /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlight" */ = {
+		D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D36225B819D71E460061A7A2 /* Debug */,
@@ -515,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlightTests" */ = {
+		D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D36225BB19D71E460061A7A2 /* Debug */,
