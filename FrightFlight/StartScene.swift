@@ -17,8 +17,8 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
     var bat = SKSpriteNode()
     var deadBat = SKSpriteNode()
     var background = SKSpriteNode()
-    var pipe1 = SKSpriteNode()
-    var pipe2 = SKSpriteNode()
+    var topObject = SKSpriteNode()
+    var bottomObject = SKSpriteNode()
     var restartButton = SKSpriteNode()
     var backToMenuButton = SKSpriteNode()
     
@@ -123,7 +123,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         self.addChild(ground)
         
         //Create timer for pipes
-        NSTimer.scheduledTimerWithTimeInterval(1.75, target: self, selector: Selector("makePipes"), userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(1.75, target: self, selector: Selector("makeCollisionObjects"), userInfo: nil, repeats: true)
         
         
     }
@@ -154,54 +154,54 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         
     }
     
-    func makePipes() {
+    func makeCollisionObjects() {
         
         if gameOver == 0 && movingObjects.speed == 1 {
             
-            var pipe1texture = SKTexture (imageNamed: "skeleton.png")
-            var pipe2texture = SKTexture (imageNamed: "graveStoneGround.png")
+            var topObjectTexture = SKTexture (imageNamed: "skeleton.png")
+            var bottomObjectTexture = SKTexture (imageNamed: "graveStoneGround.png")
             
             let gapHeight = bat.size.height * 2
             var movementAmount = arc4random() % UInt32(self.frame.height / 2)
-            var pipeOffset = CGFloat(movementAmount) - self.frame.size.height / 4
+            var objectOffset = CGFloat(movementAmount) - self.frame.size.height / 4
             
             
-            var movePipes = SKAction.moveByX(-self.size.width * 2, y: 0, duration: NSTimeInterval(self.frame.size.width / 100))
-            var removePipes = SKAction.removeFromParent()
-            var pipeSeq = SKAction.sequence([movePipes,removePipes])
+            var moveObjects = SKAction.moveByX(-self.size.width * 2, y: 0, duration: NSTimeInterval(self.frame.size.width / 100))
+            var removeObjects = SKAction.removeFromParent()
+            var objectSeq = SKAction.sequence([moveObjects,removeObjects])
             
             
-            pipe1 = SKSpriteNode (texture: pipe1texture)
-            pipe1.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 + pipe1.size.height / 2 + gapHeight / 2 + pipeOffset)
-            pipe1.zPosition = 1
-            pipe1.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((pipe1.size.width) / 2, pipe1.size.height))
-            pipe1.physicsBody?.dynamic = false
-            pipe1.physicsBody?.categoryBitMask = objectGroup
+            topObject = SKSpriteNode (texture: topObjectTexture)
+            topObject.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 + topObject.size.height / 2 + gapHeight / 2 + objectOffset)
+            topObject.zPosition = 1
+            topObject.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((topObject.size.width) / 2, topObject.size.height))
+            topObject.physicsBody?.dynamic = false
+            topObject.physicsBody?.categoryBitMask = objectGroup
             
             
             
-            movingObjects.addChild(pipe1)
-            pipe1.runAction(pipeSeq)
+            movingObjects.addChild(topObject)
+            topObject.runAction(objectSeq)
             
-            pipe2 = SKSpriteNode (texture: pipe2texture)
-            pipe2.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 - pipe2.size.height / 2 - gapHeight / 2 + pipeOffset)
-            pipe2.zPosition = 2
-            pipe2.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((pipe2.size.width) / 2, pipe2.size.height))
-            pipe2.physicsBody?.dynamic = false
-            pipe2.physicsBody?.categoryBitMask = objectGroup
+            bottomObject = SKSpriteNode (texture: bottomObjectTexture)
+            bottomObject.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 - bottomObject.size.height / 2 - gapHeight / 2 + objectOffset)
+            bottomObject.zPosition = 2
+            bottomObject.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((bottomObject.size.width) / 2, bottomObject.size.height))
+            bottomObject.physicsBody?.dynamic = false
+            bottomObject.physicsBody?.categoryBitMask = objectGroup
             
-            movingObjects.addChild(pipe2)
-            pipe2.runAction(pipeSeq)
+            movingObjects.addChild(bottomObject)
+            bottomObject.runAction(objectSeq)
             
             var gap = SKNode()
-            gap.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 + pipeOffset)
-            gap.physicsBody = SKPhysicsBody (rectangleOfSize: CGSize(width: pipe1.frame.size.width / 4, height: gapHeight))
+            gap.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 + objectOffset)
+            gap.physicsBody = SKPhysicsBody (rectangleOfSize: CGSize(width: topObject.frame.size.width / 4, height: gapHeight))
             gap.physicsBody?.dynamic = false
             gap.physicsBody?.collisionBitMask = gapGroup
             gap.physicsBody?.categoryBitMask = gapGroup
             gap.physicsBody?.contactTestBitMask = batGroup
             movingObjects.addChild(gap)
-            gap.runAction(pipeSeq)
+            gap.runAction(objectSeq)
             
         }
         
