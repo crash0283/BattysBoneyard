@@ -186,7 +186,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
             pipe2 = SKSpriteNode (texture: pipe2texture)
             pipe2.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 - pipe2.size.height / 2 - gapHeight / 2 + pipeOffset)
             pipe2.zPosition = 2
-            pipe2.physicsBody = SKPhysicsBody (texture: pipe2texture, size: pipe2texture.size())
+            pipe2.physicsBody = SKPhysicsBody (rectangleOfSize: pipe2.size)
             pipe2.physicsBody?.dynamic = false
             pipe2.physicsBody?.categoryBitMask = objectGroup
             
