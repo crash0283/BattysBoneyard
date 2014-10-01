@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		D3432CD719DA72720015300A /* FrightFlight_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD619DA72720015300A /* FrightFlight_BG.png */; };
 		D3432CD919DA74350015300A /* NewGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD819DA74350015300A /* NewGameOver.png */; };
-		D3432CDB19DA75190015300A /* FrightFlightLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CDA19DA75190015300A /* FrightFlightLogo.png */; };
+		D3497F5819DB170A00560637 /* BattysBoneyardTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */; };
+		D3497F5A19DB1D6D00560637 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3497F5919DB1D6D00560637 /* startButton.png */; };
+		D3497F5E19DB2CF300560637 /* restartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3497F5D19DB2CF300560637 /* restartButton.png */; };
+		D3497F6419DB321F00560637 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3497F6319DB321F00560637 /* backButton.png */; };
 		D362259A19D71E460061A7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362259919D71E460061A7A2 /* AppDelegate.swift */; };
 		D362259C19D71E460061A7A2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D362259B19D71E460061A7A2 /* GameScene.sks */; };
 		D362259E19D71E460061A7A2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362259D19D71E460061A7A2 /* GameScene.swift */; };
@@ -31,10 +34,7 @@
 		D36225D319D71F580061A7A2 /* eye_bat_walk4.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C919D71F580061A7A2 /* eye_bat_walk4.png */; };
 		D36225D819D71F960061A7A2 /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225D619D71F960061A7A2 /* pipe1.png */; };
 		D36225D919D71F960061A7A2 /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225D719D71F960061A7A2 /* pipe2.png */; };
-		D36225E119D71FA90061A7A2 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225DA19D71FA90061A7A2 /* play.png */; };
-		D36225E219D71FA90061A7A2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225DB19D71FA90061A7A2 /* back.png */; };
 		D36225E319D71FA90061A7A2 /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225DC19D71FA90061A7A2 /* score.png */; };
-		D36225E519D71FA90061A7A2 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225DE19D71FA90061A7A2 /* refresh.png */; };
 		D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */; };
 		D36225FD19D852670061A7A2 /* Scary Halloween Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */; };
 /* End PBXBuildFile section */
@@ -52,8 +52,11 @@
 /* Begin PBXFileReference section */
 		D3432CD619DA72720015300A /* FrightFlight_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrightFlight_BG.png; sourceTree = "<group>"; };
 		D3432CD819DA74350015300A /* NewGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGameOver.png; sourceTree = "<group>"; };
-		D3432CDA19DA75190015300A /* FrightFlightLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrightFlightLogo.png; sourceTree = "<group>"; };
-		D362259419D71E460061A7A2 /* FrightFlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrightFlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardTitle.png; sourceTree = "<group>"; };
+		D3497F5919DB1D6D00560637 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		D3497F5D19DB2CF300560637 /* restartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restartButton.png; sourceTree = "<group>"; };
+		D3497F6319DB321F00560637 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		D362259419D71E460061A7A2 /* BattysBoneyard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattysBoneyard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D362259819D71E460061A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D362259919D71E460061A7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D362259B19D71E460061A7A2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -62,7 +65,7 @@
 		D36225A219D71E460061A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D36225A419D71E460061A7A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D36225A719D71E460061A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D36225AD19D71E460061A7A2 /* FrightFlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrightFlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36225AD19D71E460061A7A2 /* BattysBoneyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattysBoneyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36225B219D71E460061A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36225B319D71E460061A7A2 /* FrightFlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrightFlightTests.swift; sourceTree = "<group>"; };
 		D36225BD19D71EC30061A7A2 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
@@ -78,10 +81,7 @@
 		D36225C919D71F580061A7A2 /* eye_bat_walk4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_bat_walk4.png; sourceTree = "<group>"; };
 		D36225D619D71F960061A7A2 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
 		D36225D719D71F960061A7A2 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
-		D36225DA19D71FA90061A7A2 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		D36225DB19D71FA90061A7A2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		D36225DC19D71FA90061A7A2 /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
-		D36225DE19D71FA90061A7A2 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
 		D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipFlopStudiosLogo.png; sourceTree = "<group>"; };
 		D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scary Halloween Font.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,8 +116,8 @@
 		D362259519D71E460061A7A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D362259419D71E460061A7A2 /* FrightFlight.app */,
-				D36225AD19D71E460061A7A2 /* FrightFlightTests.xctest */,
+				D362259419D71E460061A7A2 /* BattysBoneyard.app */,
+				D36225AD19D71E460061A7A2 /* BattysBoneyardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,14 +134,14 @@
 				D36225A419D71E460061A7A2 /* Images.xcassets */,
 				D36225D619D71F960061A7A2 /* pipe1.png */,
 				D36225D719D71F960061A7A2 /* pipe2.png */,
+				D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */,
+				D3497F6319DB321F00560637 /* backButton.png */,
 				D3432CD619DA72720015300A /* FrightFlight_BG.png */,
-				D3432CDA19DA75190015300A /* FrightFlightLogo.png */,
+				D3497F5919DB1D6D00560637 /* startButton.png */,
 				D3432CD819DA74350015300A /* NewGameOver.png */,
-				D36225DA19D71FA90061A7A2 /* play.png */,
-				D36225DB19D71FA90061A7A2 /* back.png */,
+				D3497F5D19DB2CF300560637 /* restartButton.png */,
 				D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */,
 				D36225DC19D71FA90061A7A2 /* score.png */,
-				D36225DE19D71FA90061A7A2 /* refresh.png */,
 				D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */,
 				D36225BF19D71F580061A7A2 /* bat */,
 				D36225A619D71E460061A7A2 /* LaunchScreen.xib */,
@@ -195,9 +195,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D362259319D71E460061A7A2 /* FrightFlight */ = {
+		D362259319D71E460061A7A2 /* BattysBoneyard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlight" */;
+			buildConfigurationList = D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyard" */;
 			buildPhases = (
 				D362259019D71E460061A7A2 /* Sources */,
 				D362259119D71E460061A7A2 /* Frameworks */,
@@ -207,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = FrightFlight;
+			name = BattysBoneyard;
 			productName = FrightFlight;
-			productReference = D362259419D71E460061A7A2 /* FrightFlight.app */;
+			productReference = D362259419D71E460061A7A2 /* BattysBoneyard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D36225AC19D71E460061A7A2 /* FrightFlightTests */ = {
+		D36225AC19D71E460061A7A2 /* BattysBoneyardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlightTests" */;
+			buildConfigurationList = D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyardTests" */;
 			buildPhases = (
 				D36225A919D71E460061A7A2 /* Sources */,
 				D36225AA19D71E460061A7A2 /* Frameworks */,
@@ -225,9 +225,9 @@
 			dependencies = (
 				D36225AF19D71E460061A7A2 /* PBXTargetDependency */,
 			);
-			name = FrightFlightTests;
+			name = BattysBoneyardTests;
 			productName = FrightFlightTests;
-			productReference = D36225AD19D71E460061A7A2 /* FrightFlightTests.xctest */;
+			productReference = D36225AD19D71E460061A7A2 /* BattysBoneyardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "FrightFlight" */;
+			buildConfigurationList = D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "BattysBoneyard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,8 +261,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D362259319D71E460061A7A2 /* FrightFlight */,
-				D36225AC19D71E460061A7A2 /* FrightFlightTests */,
+				D362259319D71E460061A7A2 /* BattysBoneyard */,
+				D36225AC19D71E460061A7A2 /* BattysBoneyardTests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,20 +276,20 @@
 				D36225CC19D71F580061A7A2 /* bat_walk2.png in Resources */,
 				D36225A819D71E460061A7A2 /* LaunchScreen.xib in Resources */,
 				D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */,
+				D3497F5E19DB2CF300560637 /* restartButton.png in Resources */,
 				D36225A519D71E460061A7A2 /* Images.xcassets in Resources */,
 				D36225D919D71F960061A7A2 /* pipe2.png in Resources */,
 				D36225CA19D71F580061A7A2 /* bat_dead.png in Resources */,
-				D3432CDB19DA75190015300A /* FrightFlightLogo.png in Resources */,
 				D36225CD19D71F580061A7A2 /* bat_walk3.png in Resources */,
+				D3497F5819DB170A00560637 /* BattysBoneyardTitle.png in Resources */,
 				D36225D319D71F580061A7A2 /* eye_bat_walk4.png in Resources */,
+				D3497F5A19DB1D6D00560637 /* startButton.png in Resources */,
 				D36225D119D71F580061A7A2 /* eye_bat_walk2.png in Resources */,
 				D36225D219D71F580061A7A2 /* eye_bat_walk3.png in Resources */,
-				D36225E519D71FA90061A7A2 /* refresh.png in Resources */,
 				D36225CF19D71F580061A7A2 /* eye_bat_dead.png in Resources */,
-				D36225E119D71FA90061A7A2 /* play.png in Resources */,
 				D36225E319D71FA90061A7A2 /* score.png in Resources */,
-				D36225E219D71FA90061A7A2 /* back.png in Resources */,
 				D362259C19D71E460061A7A2 /* GameScene.sks in Resources */,
+				D3497F6419DB321F00560637 /* backButton.png in Resources */,
 				D36225D819D71F960061A7A2 /* pipe1.png in Resources */,
 				D36225CB19D71F580061A7A2 /* bat_walk1.png in Resources */,
 				D36225CE19D71F580061A7A2 /* bat_walk4.png in Resources */,
@@ -334,7 +334,7 @@
 /* Begin PBXTargetDependency section */
 		D36225AF19D71E460061A7A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D362259319D71E460061A7A2 /* FrightFlight */;
+			target = D362259319D71E460061A7A2 /* BattysBoneyard */;
 			targetProxy = D36225AE19D71E460061A7A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrightFlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -455,7 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FrightFlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -474,7 +474,7 @@
 				);
 				INFOPLIST_FILE = FrightFlightTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrightFlight.app/FrightFlight";
 			};
 			name = Debug;
@@ -489,7 +489,7 @@
 				);
 				INFOPLIST_FILE = FrightFlightTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BattysBoneyardTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrightFlight.app/FrightFlight";
 			};
 			name = Release;
@@ -497,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "FrightFlight" */ = {
+		D362258F19D71E460061A7A2 /* Build configuration list for PBXProject "BattysBoneyard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D36225B519D71E460061A7A2 /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlight" */ = {
+		D36225B719D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D36225B819D71E460061A7A2 /* Debug */,
@@ -515,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "FrightFlightTests" */ = {
+		D36225BA19D71E460061A7A2 /* Build configuration list for PBXNativeTarget "BattysBoneyardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D36225BB19D71E460061A7A2 /* Debug */,

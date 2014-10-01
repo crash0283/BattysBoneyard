@@ -257,21 +257,21 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
                 gameOverLabel.zPosition = 20
                 labelHolder.addChild(gameOverLabel)
                 
-                var restartButtonTexture = SKTexture(imageNamed: "refresh.png")
+                var restartButtonTexture = SKTexture(imageNamed: "restartButton.png")
                 restartButton = SKSpriteNode (texture: restartButtonTexture)
-                restartButton.position = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2 - 500)
-                restartButton.size = CGSizeMake(75, 75)
-                var moveRestart = SKAction.moveToY(self.frame.size.height / 2 - 150, duration: 0.5)
+                restartButton.position = CGPointMake((self.frame.size.width / 2) - 100, (self.frame.size.height / 2) - 500)
+                restartButton.size = CGSizeMake(150, 150)
+                var moveRestart = SKAction.moveToY(self.frame.size.height / 2 - 100, duration: 0.15)
                 labelHolder.addChild(restartButton)
                 restartButton.runAction(moveRestart)
                 restartButton.zPosition = 20
                 restartButton.name = "restartButton"
                 
-                var backToMenuButtonTexture = SKTexture(imageNamed: "back.png")
+                var backToMenuButtonTexture = SKTexture(imageNamed: "backButton.png")
                 backToMenuButton = SKSpriteNode (texture: backToMenuButtonTexture)
-                backToMenuButton.position = CGPointMake(self.frame.size.width / 2, self.frame.size.height / 2 - 500)
-                backToMenuButton.size = CGSizeMake(75, 75)
-                var moveBack = SKAction.moveToY(self.frame.size.height / 2 - 250, duration: 0.5)
+                backToMenuButton.position = CGPointMake((self.frame.size.width / 2) + 140, (self.frame.size.height / 2) - 500)
+                backToMenuButton.size = CGSizeMake(150, 150)
+                var moveBack = SKAction.moveToY(self.frame.size.height / 2 - 100, duration: 0.15)
                 labelHolder.addChild(backToMenuButton)
                 backToMenuButton.runAction(moveBack)
                 backToMenuButton.zPosition = 100
