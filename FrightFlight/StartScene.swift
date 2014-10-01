@@ -159,7 +159,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         if gameOver == 0 && movingObjects.speed == 1 {
             
             var pipe1texture = SKTexture (imageNamed: "skeleton.png")
-            var pipe2texture = SKTexture (imageNamed: "grave.png")
+            var pipe2texture = SKTexture (imageNamed: "graveStoneGround.png")
             
             let gapHeight = bat.size.height * 2
             var movementAmount = arc4random() % UInt32(self.frame.height / 2)
