@@ -20,7 +20,7 @@
 		D36225A319D71E460061A7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36225A119D71E460061A7A2 /* Main.storyboard */; };
 		D36225A519D71E460061A7A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36225A419D71E460061A7A2 /* Images.xcassets */; };
 		D36225A819D71E460061A7A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36225A619D71E460061A7A2 /* LaunchScreen.xib */; };
-		D36225B419D71E460061A7A2 /* FrightFlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36225B319D71E460061A7A2 /* FrightFlightTests.swift */; };
+		D36225B419D71E460061A7A2 /* BattysBoneyardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36225B319D71E460061A7A2 /* BattysBoneyardTests.swift */; };
 		D36225BE19D71EC30061A7A2 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36225BD19D71EC30061A7A2 /* StartScene.swift */; };
 		D36225CA19D71F580061A7A2 /* bat_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C019D71F580061A7A2 /* bat_dead.png */; };
 		D36225CB19D71F580061A7A2 /* bat_walk1.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C119D71F580061A7A2 /* bat_walk1.png */; };
@@ -67,7 +67,7 @@
 		D36225A719D71E460061A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D36225AD19D71E460061A7A2 /* BattysBoneyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattysBoneyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36225B219D71E460061A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D36225B319D71E460061A7A2 /* FrightFlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrightFlightTests.swift; sourceTree = "<group>"; };
+		D36225B319D71E460061A7A2 /* BattysBoneyardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattysBoneyardTests.swift; sourceTree = "<group>"; };
 		D36225BD19D71EC30061A7A2 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		D36225C019D71F580061A7A2 /* bat_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_dead.png; sourceTree = "<group>"; };
 		D36225C119D71F580061A7A2 /* bat_walk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_walk1.png; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		D362258B19D71E460061A7A2 = {
 			isa = PBXGroup;
 			children = (
-				D362259619D71E460061A7A2 /* FrightFlight */,
-				D36225B019D71E460061A7A2 /* FrightFlightTests */,
+				D362259619D71E460061A7A2 /* BattysBoneyard */,
+				D36225B019D71E460061A7A2 /* BattysBoneyardTests */,
 				D362259519D71E460061A7A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D362259619D71E460061A7A2 /* FrightFlight */ = {
+		D362259619D71E460061A7A2 /* BattysBoneyard */ = {
 			isa = PBXGroup;
 			children = (
 				D362259919D71E460061A7A2 /* AppDelegate.swift */,
@@ -147,6 +147,7 @@
 				D36225A619D71E460061A7A2 /* LaunchScreen.xib */,
 				D362259719D71E460061A7A2 /* Supporting Files */,
 			);
+			name = BattysBoneyard;
 			path = FrightFlight;
 			sourceTree = "<group>";
 		};
@@ -158,12 +159,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D36225B019D71E460061A7A2 /* FrightFlightTests */ = {
+		D36225B019D71E460061A7A2 /* BattysBoneyardTests */ = {
 			isa = PBXGroup;
 			children = (
-				D36225B319D71E460061A7A2 /* FrightFlightTests.swift */,
+				D36225B319D71E460061A7A2 /* BattysBoneyardTests.swift */,
 				D36225B119D71E460061A7A2 /* Supporting Files */,
 			);
+			name = BattysBoneyardTests;
 			path = FrightFlightTests;
 			sourceTree = "<group>";
 		};
@@ -325,7 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36225B419D71E460061A7A2 /* FrightFlightTests.swift in Sources */,
+				D36225B419D71E460061A7A2 /* BattysBoneyardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
