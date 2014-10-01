@@ -123,7 +123,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         self.addChild(ground)
         
         //Create timer for pipes
-        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("makePipes"), userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(1.75, target: self, selector: Selector("makePipes"), userInfo: nil, repeats: true)
         
         
     }
@@ -174,7 +174,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
             pipe1 = SKSpriteNode (texture: pipe1texture)
             pipe1.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 + pipe1.size.height / 2 + gapHeight / 2 + pipeOffset)
             pipe1.zPosition = 1
-            pipe1.physicsBody = SKPhysicsBody (rectangleOfSize: pipe1.size)
+            pipe1.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((pipe1.size.width) / 2, pipe1.size.height))
             pipe1.physicsBody?.dynamic = false
             pipe1.physicsBody?.categoryBitMask = objectGroup
             
@@ -186,7 +186,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
             pipe2 = SKSpriteNode (texture: pipe2texture)
             pipe2.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 - pipe2.size.height / 2 - gapHeight / 2 + pipeOffset)
             pipe2.zPosition = 2
-            pipe2.physicsBody = SKPhysicsBody (rectangleOfSize: pipe2.size)
+            pipe2.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((pipe2.size.width) / 2, pipe2.size.height))
             pipe2.physicsBody?.dynamic = false
             pipe2.physicsBody?.categoryBitMask = objectGroup
             
