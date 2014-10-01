@@ -20,6 +20,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
     var topObject = SKSpriteNode()
     var topObject2 = SKSpriteNode()
     var bottomObject = SKSpriteNode()
+    var bottomObject2 = SKSpriteNode()
     var restartButton = SKSpriteNode()
     var backToMenuButton = SKSpriteNode()
     
@@ -162,6 +163,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
             var topObjectTexture = SKTexture (imageNamed: "skeleton.png")
             var topObjectTexture2 = SKTexture (imageNamed: "skeleton_02.png")
             var bottomObjectTexture = SKTexture (imageNamed: "graveStoneGround.png")
+            var bottomObjectTexture2 = SKTexture (imageNamed: "newGraveGround_02.png")
             
             let gapHeight = bat.size.height * 2
             var movementAmount = arc4random() % UInt32(self.frame.height / 2)
@@ -174,6 +176,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
             
             
             var randomObjects = arc4random() % 2
+            var gap = SKNode()
             
             
             if randomObjects == 0 {
@@ -200,7 +203,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
                 movingObjects.addChild(bottomObject)
                 bottomObject.runAction(objectSeq)
                 
-                var gap = SKNode()
+
                 gap.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 + objectOffset)
                 gap.physicsBody = SKPhysicsBody (rectangleOfSize: CGSize(width: topObject.frame.size.width / 4, height: gapHeight))
                 gap.physicsBody?.dynamic = false
@@ -224,17 +227,16 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
                 movingObjects.addChild(topObject2)
                 topObject2.runAction(objectSeq)
                 
-                bottomObject = SKSpriteNode (texture: bottomObjectTexture)
-                bottomObject.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 - bottomObject.size.height / 2 - gapHeight / 2 + objectOffset)
-                bottomObject.zPosition = 2
-                bottomObject.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((bottomObject.size.width) / 2, bottomObject.size.height))
-                bottomObject.physicsBody?.dynamic = false
-                bottomObject.physicsBody?.categoryBitMask = objectGroup
+                bottomObject2 = SKSpriteNode (texture: bottomObjectTexture2)
+                bottomObject2.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 - bottomObject2.size.height / 2 - gapHeight / 2 + objectOffset)
+                bottomObject2.zPosition = 2
+                bottomObject2.physicsBody = SKPhysicsBody (rectangleOfSize: CGSizeMake((bottomObject2.size.width) / 2, bottomObject2.size.height))
+                bottomObject2.physicsBody?.dynamic = false
+                bottomObject2.physicsBody?.categoryBitMask = objectGroup
                 
-                movingObjects.addChild(bottomObject)
-                bottomObject.runAction(objectSeq)
+                movingObjects.addChild(bottomObject2)
+                bottomObject2.runAction(objectSeq)
                 
-                var gap = SKNode()
                 gap.position = CGPointMake(self.frame.width / 2 + self.frame.width, self.frame.height / 2 + objectOffset)
                 gap.physicsBody = SKPhysicsBody (rectangleOfSize: CGSize(width: topObject2.frame.size.width / 4, height: gapHeight))
                 gap.physicsBody?.dynamic = false
