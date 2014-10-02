@@ -14,6 +14,7 @@
 		D3161C4C19DCFA69004AF757 /* newBone.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C4B19DCFA69004AF757 /* newBone.png */; };
 		D3161C5019DCFF8F004AF757 /* newWhiteBones.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C4F19DCFF8F004AF757 /* newWhiteBones.png */; };
 		D3161C5219DD00F0004AF757 /* noOutlineWhiteBone.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C5119DD00F0004AF757 /* noOutlineWhiteBone.png */; };
+		D3161C5419DD0DC8004AF757 /* scaryMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3161C5319DD0DC8004AF757 /* scaryMusic.mp3 */; };
 		D3432CD719DA72720015300A /* FrightFlight_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD619DA72720015300A /* FrightFlight_BG.png */; };
 		D3432CD919DA74350015300A /* NewGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD819DA74350015300A /* NewGameOver.png */; };
 		D3497F5819DB170A00560637 /* BattysBoneyardTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */; };
@@ -44,6 +45,7 @@
 		D36225E319D71FA90061A7A2 /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225DC19D71FA90061A7A2 /* score.png */; };
 		D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */; };
 		D36225FD19D852670061A7A2 /* Scary Halloween Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */; };
+		D37E833F19DDB013000F6899 /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E833E19DDB013000F6899 /* swoosh.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		D3161C4B19DCFA69004AF757 /* newBone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newBone.png; sourceTree = "<group>"; };
 		D3161C4F19DCFF8F004AF757 /* newWhiteBones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newWhiteBones.png; sourceTree = "<group>"; };
 		D3161C5119DD00F0004AF757 /* noOutlineWhiteBone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noOutlineWhiteBone.png; sourceTree = "<group>"; };
+		D3161C5319DD0DC8004AF757 /* scaryMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scaryMusic.mp3; sourceTree = "<group>"; };
 		D3432CD619DA72720015300A /* FrightFlight_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrightFlight_BG.png; sourceTree = "<group>"; };
 		D3432CD819DA74350015300A /* NewGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGameOver.png; sourceTree = "<group>"; };
 		D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardTitle.png; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 		D36225DC19D71FA90061A7A2 /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
 		D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipFlopStudiosLogo.png; sourceTree = "<group>"; };
 		D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scary Halloween Font.ttf"; sourceTree = "<group>"; };
+		D37E833E19DDB013000F6899 /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +162,9 @@
 				D3161C4719DCAC7C004AF757 /* newGraveGround_02.png */,
 				D3161C3519DC545F004AF757 /* skeleton.png */,
 				D3161C4319DC877B004AF757 /* skeleton_02.png */,
+				D37E833E19DDB013000F6899 /* swoosh.mp3 */,
 				D3497F5919DB1D6D00560637 /* startButton.png */,
+				D3161C5319DD0DC8004AF757 /* scaryMusic.mp3 */,
 				D3432CD819DA74350015300A /* NewGameOver.png */,
 				D3497F5D19DB2CF300560637 /* restartButton.png */,
 				D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */,
@@ -302,6 +308,7 @@
 				D3161C4C19DCFA69004AF757 /* newBone.png in Resources */,
 				D3161C5019DCFF8F004AF757 /* newWhiteBones.png in Resources */,
 				D36225D919D71F960061A7A2 /* pipe2.png in Resources */,
+				D37E833F19DDB013000F6899 /* swoosh.mp3 in Resources */,
 				D36225CA19D71F580061A7A2 /* bat_dead.png in Resources */,
 				D36225CD19D71F580061A7A2 /* bat_walk3.png in Resources */,
 				D3161C5219DD00F0004AF757 /* noOutlineWhiteBone.png in Resources */,
@@ -314,6 +321,7 @@
 				D36225D219D71F580061A7A2 /* eye_bat_walk3.png in Resources */,
 				D3161C4A19DCAE8D004AF757 /* graveStoneGround.png in Resources */,
 				D36225CF19D71F580061A7A2 /* eye_bat_dead.png in Resources */,
+				D3161C5419DD0DC8004AF757 /* scaryMusic.mp3 in Resources */,
 				D36225E319D71FA90061A7A2 /* score.png in Resources */,
 				D362259C19D71E460061A7A2 /* GameScene.sks in Resources */,
 				D3497F6419DB321F00560637 /* backButton.png in Resources */,

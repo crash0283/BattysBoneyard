@@ -8,6 +8,7 @@
 
 import UIKit
 import SpriteKit
+import AVFoundation
 
 class StartScene: SKScene, SKPhysicsContactDelegate {
     
@@ -43,10 +44,20 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
     var highScoreLabel = SKLabelNode()
     var highScore = Int()
     
+    var musicPlayer: AVAudioPlayer = AVAudioPlayer()
+    var swooshPlayer: AVAudioPlayer = AVAudioPlayer()
+    
     
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
+        
+        /*var soundUrl = NSURL (fileURLWithPath: NSBundle.mainBundle().pathForResource("scaryMusic", ofType: "mp3")!)
+        musicPlayer = AVAudioPlayer (contentsOfURL: soundUrl, error: nil)
+        musicPlayer.volume = 0.25
+        musicPlayer.prepareToPlay()
+        musicPlayer.play()*/
+        
         
         movingObjects.speed = 0
         
@@ -126,6 +137,8 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         
         //Create timer for pipes
         NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("makeCollisionObjects"), userInfo: nil, repeats: true)
+        
+        
         
         
     }
@@ -369,6 +382,12 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
 
             bat.physicsBody?.velocity = CGVectorMake(0, 0)
             bat.physicsBody?.applyImpulse(CGVectorMake(0, 200))
+            
+            /*var swooshUrl = NSURL (fileURLWithPath: NSBundle.mainBundle().pathForResource("swoosh", ofType: "mp3")!)
+            swooshPlayer = AVAudioPlayer (contentsOfURL: swooshUrl, error: nil)
+            swooshPlayer.volume = 0.25
+            swooshPlayer.play()*/
+            
             startGame = 0
             
             if startGame == 0 {
@@ -385,6 +404,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
             var node = nodeAtPoint(location!)
             
             if node.name == "restartButton" {
+                
                 
                 deadBat.alpha = 0
                 bat.alpha = 1

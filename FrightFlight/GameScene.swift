@@ -7,10 +7,14 @@
 //
 
 import SpriteKit
+import AVFoundation
 
 class GameScene: StartScene {
+    
 
     var startButton = SKSpriteNode()
+    
+    
     
     override func didMoveToView(view: SKView) {
         
@@ -34,6 +38,8 @@ class GameScene: StartScene {
         var repeatStartSeq = SKAction.repeatActionForever(SKAction.sequence([rotateStart,rotateStartBack,rotateStartNeg,rotateStartBegin]))
 
         startButton.runAction(repeatStartSeq)
+        
+        
         
         
     }
@@ -72,6 +78,8 @@ class GameScene: StartScene {
         
     }
     
+
+    
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         
         let touch: AnyObject? = touches.anyObject()
@@ -79,6 +87,7 @@ class GameScene: StartScene {
         let node = nodeAtPoint(location!)
         
         if node.name == "startButton" {
+
             
             let transition = SKTransition.doorsOpenVerticalWithDuration(0.5)
             let scene = StartScene(size: self.size)
