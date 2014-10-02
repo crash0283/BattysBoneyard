@@ -61,7 +61,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         //Create label for score
         scoreLabel.fontName = "Scary Halloween Font"
         scoreLabel.fontSize = 60
-        scoreLabel.fontColor = SKColor.yellowColor()
+        scoreLabel.fontColor = SKColor.redColor()
         scoreLabel.text = "0"
         scoreLabel.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) + 240)
         scoreLabel.alpha = 0
@@ -70,7 +70,7 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         
         theScoreTitle.fontName = "Scary Halloween Font"
         theScoreTitle.fontSize = 50
-        theScoreTitle.fontColor = SKColor.yellowColor()
+        theScoreTitle.fontColor = SKColor.redColor()
         theScoreTitle.text = "Score:"
         theScoreTitle.position = CGPointMake(self.frame.size.width / 2, (self.frame.size.height / 2) + 320)
         theScoreTitle.alpha = 0
