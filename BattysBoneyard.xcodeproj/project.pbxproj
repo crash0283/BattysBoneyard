@@ -46,6 +46,11 @@
 		D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */; };
 		D36225FD19D852670061A7A2 /* Scary Halloween Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */; };
 		D37E833F19DDB013000F6899 /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E833E19DDB013000F6899 /* swoosh.mp3 */; };
+		D37E834719DDD7E0000F6899 /* BattysBoneyardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834619DDD7E0000F6899 /* BattysBoneyardIcon.png */; };
+		D37E834919DDD841000F6899 /* BattysBoneyardIcon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834819DDD841000F6899 /* BattysBoneyardIcon_120.png */; };
+		D37E834B19DDD89E000F6899 /* BattysBoneyardIcon_152.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834A19DDD89E000F6899 /* BattysBoneyardIcon_152.png */; };
+		D37E834D19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834C19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png */; };
+		D37E835119DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E835019DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +107,11 @@
 		D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipFlopStudiosLogo.png; sourceTree = "<group>"; };
 		D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scary Halloween Font.ttf"; sourceTree = "<group>"; };
 		D37E833E19DDB013000F6899 /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
+		D37E834619DDD7E0000F6899 /* BattysBoneyardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardIcon.png; sourceTree = "<group>"; };
+		D37E834819DDD841000F6899 /* BattysBoneyardIcon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardIcon_120.png; sourceTree = "<group>"; };
+		D37E834A19DDD89E000F6899 /* BattysBoneyardIcon_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardIcon_152.png; sourceTree = "<group>"; };
+		D37E834C19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattysBoneyardIcon_80@2x.png"; sourceTree = "<group>"; };
+		D37E835019DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattysBoneyardIcon_76@1x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,11 @@
 				D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */,
 				D3497F6319DB321F00560637 /* backButton.png */,
 				D3432CD619DA72720015300A /* FrightFlight_BG.png */,
+				D37E834C19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png */,
+				D37E835019DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png */,
+				D37E834A19DDD89E000F6899 /* BattysBoneyardIcon_152.png */,
+				D37E834819DDD841000F6899 /* BattysBoneyardIcon_120.png */,
+				D37E834619DDD7E0000F6899 /* BattysBoneyardIcon.png */,
 				D3161C4B19DCFA69004AF757 /* newBone.png */,
 				D3161C5119DD00F0004AF757 /* noOutlineWhiteBone.png */,
 				D3161C4F19DCFF8F004AF757 /* newWhiteBones.png */,
@@ -300,11 +315,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36225FD19D852670061A7A2 /* Scary Halloween Font.ttf in Resources */,
+				D37E834719DDD7E0000F6899 /* BattysBoneyardIcon.png in Resources */,
 				D36225CC19D71F580061A7A2 /* bat_walk2.png in Resources */,
 				D36225A819D71E460061A7A2 /* LaunchScreen.xib in Resources */,
+				D37E834B19DDD89E000F6899 /* BattysBoneyardIcon_152.png in Resources */,
 				D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */,
 				D3497F5E19DB2CF300560637 /* restartButton.png in Resources */,
 				D36225A519D71E460061A7A2 /* Images.xcassets in Resources */,
+				D37E834919DDD841000F6899 /* BattysBoneyardIcon_120.png in Resources */,
+				D37E834D19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png in Resources */,
 				D3161C4C19DCFA69004AF757 /* newBone.png in Resources */,
 				D3161C5019DCFF8F004AF757 /* newWhiteBones.png in Resources */,
 				D36225D919D71F960061A7A2 /* pipe2.png in Resources */,
@@ -313,6 +332,7 @@
 				D36225CD19D71F580061A7A2 /* bat_walk3.png in Resources */,
 				D3161C5219DD00F0004AF757 /* noOutlineWhiteBone.png in Resources */,
 				D3161C4819DCAC7C004AF757 /* newGraveGround_02.png in Resources */,
+				D37E835119DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png in Resources */,
 				D3497F5819DB170A00560637 /* BattysBoneyardTitle.png in Resources */,
 				D3161C3619DC545F004AF757 /* skeleton.png in Resources */,
 				D36225D319D71F580061A7A2 /* eye_bat_walk4.png in Resources */,
