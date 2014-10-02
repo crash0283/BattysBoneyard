@@ -160,10 +160,10 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         
         if gameOver == 0 && movingObjects.speed == 1 {
             
-            var topObjectTexture = SKTexture (imageNamed: "skeleton.png")
-            var topObjectTexture2 = SKTexture (imageNamed: "skeleton_02.png")
-            var bottomObjectTexture = SKTexture (imageNamed: "graveStoneGround.png")
-            var bottomObjectTexture2 = SKTexture (imageNamed: "newGraveGround_02.png")
+            var topObjectTexture = SKTexture (imageNamed: "noOutlineWhiteBone.png")
+            var topObjectTexture2 = SKTexture (imageNamed: "noOutlineWhiteBone.png")
+            var bottomObjectTexture = SKTexture (imageNamed: "noOutlineWhiteBone.png")
+            var bottomObjectTexture2 = SKTexture (imageNamed: "noOutlineWhiteBone.png")
             
             let gapHeight = bat.size.height * 2
             var movementAmount = arc4random() % UInt32(self.frame.height / 2)
