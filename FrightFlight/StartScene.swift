@@ -173,17 +173,17 @@ class StartScene: SKScene, SKPhysicsContactDelegate {
         
         if gameOver == 0 && movingObjects.speed == 1 {
             
-            var topObjectTexture = SKTexture (imageNamed: "noOutlineWhiteBone.png")
-            var topObjectTexture2 = SKTexture (imageNamed: "noOutlineWhiteBone.png")
-            var bottomObjectTexture = SKTexture (imageNamed: "noOutlineWhiteBone.png")
-            var bottomObjectTexture2 = SKTexture (imageNamed: "noOutlineWhiteBone.png")
+            var topObjectTexture = SKTexture (imageNamed: "bone_longer.png")
+            var topObjectTexture2 = SKTexture (imageNamed: "bone_longer.png")
+            var bottomObjectTexture = SKTexture (imageNamed: "bone_longer.png")
+            var bottomObjectTexture2 = SKTexture (imageNamed: "bone_longer.png")
             
-            let gapHeight = bat.size.height * 2
+            let gapHeight = bat.size.height * 1.5
             var movementAmount = arc4random() % UInt32(self.frame.height / 2)
             var objectOffset = CGFloat(movementAmount) - self.frame.size.height / 4
             
             
-            var moveObjects = SKAction.moveByX(-self.size.width * 2, y: 0, duration: NSTimeInterval(self.frame.size.width / 100))
+            var moveObjects = SKAction.moveByX(-self.size.width * 2, y: 0, duration: NSTimeInterval(self.frame.size.width / 110))
             var removeObjects = SKAction.removeFromParent()
             var objectSeq = SKAction.sequence([moveObjects,removeObjects])
             

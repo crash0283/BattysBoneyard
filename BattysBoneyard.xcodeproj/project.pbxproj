@@ -7,14 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3161C3619DC545F004AF757 /* skeleton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C3519DC545F004AF757 /* skeleton.png */; };
-		D3161C4419DC877B004AF757 /* skeleton_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C4319DC877B004AF757 /* skeleton_02.png */; };
-		D3161C4819DCAC7C004AF757 /* newGraveGround_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C4719DCAC7C004AF757 /* newGraveGround_02.png */; };
-		D3161C4A19DCAE8D004AF757 /* graveStoneGround.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C4919DCAE8D004AF757 /* graveStoneGround.png */; };
 		D3161C4C19DCFA69004AF757 /* newBone.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C4B19DCFA69004AF757 /* newBone.png */; };
-		D3161C5019DCFF8F004AF757 /* newWhiteBones.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C4F19DCFF8F004AF757 /* newWhiteBones.png */; };
 		D3161C5219DD00F0004AF757 /* noOutlineWhiteBone.png in Resources */ = {isa = PBXBuildFile; fileRef = D3161C5119DD00F0004AF757 /* noOutlineWhiteBone.png */; };
-		D3161C5419DD0DC8004AF757 /* scaryMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3161C5319DD0DC8004AF757 /* scaryMusic.mp3 */; };
 		D3432CD719DA72720015300A /* FrightFlight_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD619DA72720015300A /* FrightFlight_BG.png */; };
 		D3432CD919DA74350015300A /* NewGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = D3432CD819DA74350015300A /* NewGameOver.png */; };
 		D3497F5819DB170A00560637 /* BattysBoneyardTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */; };
@@ -30,27 +24,19 @@
 		D36225A819D71E460061A7A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D36225A619D71E460061A7A2 /* LaunchScreen.xib */; };
 		D36225B419D71E460061A7A2 /* FrightFlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36225B319D71E460061A7A2 /* FrightFlightTests.swift */; };
 		D36225BE19D71EC30061A7A2 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36225BD19D71EC30061A7A2 /* StartScene.swift */; };
-		D36225CA19D71F580061A7A2 /* bat_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C019D71F580061A7A2 /* bat_dead.png */; };
-		D36225CB19D71F580061A7A2 /* bat_walk1.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C119D71F580061A7A2 /* bat_walk1.png */; };
-		D36225CC19D71F580061A7A2 /* bat_walk2.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C219D71F580061A7A2 /* bat_walk2.png */; };
-		D36225CD19D71F580061A7A2 /* bat_walk3.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C319D71F580061A7A2 /* bat_walk3.png */; };
-		D36225CE19D71F580061A7A2 /* bat_walk4.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C419D71F580061A7A2 /* bat_walk4.png */; };
 		D36225CF19D71F580061A7A2 /* eye_bat_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C519D71F580061A7A2 /* eye_bat_dead.png */; };
 		D36225D019D71F580061A7A2 /* eye_bat_walk1.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C619D71F580061A7A2 /* eye_bat_walk1.png */; };
 		D36225D119D71F580061A7A2 /* eye_bat_walk2.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C719D71F580061A7A2 /* eye_bat_walk2.png */; };
 		D36225D219D71F580061A7A2 /* eye_bat_walk3.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C819D71F580061A7A2 /* eye_bat_walk3.png */; };
 		D36225D319D71F580061A7A2 /* eye_bat_walk4.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225C919D71F580061A7A2 /* eye_bat_walk4.png */; };
-		D36225D819D71F960061A7A2 /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225D619D71F960061A7A2 /* pipe1.png */; };
-		D36225D919D71F960061A7A2 /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225D719D71F960061A7A2 /* pipe2.png */; };
-		D36225E319D71FA90061A7A2 /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225DC19D71FA90061A7A2 /* score.png */; };
 		D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */; };
 		D36225FD19D852670061A7A2 /* Scary Halloween Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */; };
-		D37E833F19DDB013000F6899 /* swoosh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D37E833E19DDB013000F6899 /* swoosh.mp3 */; };
 		D37E834719DDD7E0000F6899 /* BattysBoneyardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834619DDD7E0000F6899 /* BattysBoneyardIcon.png */; };
 		D37E834919DDD841000F6899 /* BattysBoneyardIcon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834819DDD841000F6899 /* BattysBoneyardIcon_120.png */; };
 		D37E834B19DDD89E000F6899 /* BattysBoneyardIcon_152.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834A19DDD89E000F6899 /* BattysBoneyardIcon_152.png */; };
 		D37E834D19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E834C19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png */; };
 		D37E835119DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D37E835019DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png */; };
+		D3D3797019DE5705008B99AD /* bone_longer.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D3796F19DE5705008B99AD /* bone_longer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,14 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D3161C3519DC545F004AF757 /* skeleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeleton.png; sourceTree = "<group>"; };
-		D3161C4319DC877B004AF757 /* skeleton_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeleton_02.png; sourceTree = "<group>"; };
-		D3161C4719DCAC7C004AF757 /* newGraveGround_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newGraveGround_02.png; sourceTree = "<group>"; };
-		D3161C4919DCAE8D004AF757 /* graveStoneGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graveStoneGround.png; sourceTree = "<group>"; };
 		D3161C4B19DCFA69004AF757 /* newBone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newBone.png; sourceTree = "<group>"; };
-		D3161C4F19DCFF8F004AF757 /* newWhiteBones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newWhiteBones.png; sourceTree = "<group>"; };
 		D3161C5119DD00F0004AF757 /* noOutlineWhiteBone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noOutlineWhiteBone.png; sourceTree = "<group>"; };
-		D3161C5319DD0DC8004AF757 /* scaryMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scaryMusic.mp3; sourceTree = "<group>"; };
 		D3432CD619DA72720015300A /* FrightFlight_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrightFlight_BG.png; sourceTree = "<group>"; };
 		D3432CD819DA74350015300A /* NewGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGameOver.png; sourceTree = "<group>"; };
 		D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardTitle.png; sourceTree = "<group>"; };
@@ -91,27 +71,19 @@
 		D36225B219D71E460061A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36225B319D71E460061A7A2 /* FrightFlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrightFlightTests.swift; sourceTree = "<group>"; };
 		D36225BD19D71EC30061A7A2 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
-		D36225C019D71F580061A7A2 /* bat_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_dead.png; sourceTree = "<group>"; };
-		D36225C119D71F580061A7A2 /* bat_walk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_walk1.png; sourceTree = "<group>"; };
-		D36225C219D71F580061A7A2 /* bat_walk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_walk2.png; sourceTree = "<group>"; };
-		D36225C319D71F580061A7A2 /* bat_walk3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_walk3.png; sourceTree = "<group>"; };
-		D36225C419D71F580061A7A2 /* bat_walk4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat_walk4.png; sourceTree = "<group>"; };
 		D36225C519D71F580061A7A2 /* eye_bat_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_bat_dead.png; sourceTree = "<group>"; };
 		D36225C619D71F580061A7A2 /* eye_bat_walk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_bat_walk1.png; sourceTree = "<group>"; };
 		D36225C719D71F580061A7A2 /* eye_bat_walk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_bat_walk2.png; sourceTree = "<group>"; };
 		D36225C819D71F580061A7A2 /* eye_bat_walk3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_bat_walk3.png; sourceTree = "<group>"; };
 		D36225C919D71F580061A7A2 /* eye_bat_walk4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_bat_walk4.png; sourceTree = "<group>"; };
-		D36225D619D71F960061A7A2 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
-		D36225D719D71F960061A7A2 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
-		D36225DC19D71FA90061A7A2 /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
 		D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipFlopStudiosLogo.png; sourceTree = "<group>"; };
 		D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Scary Halloween Font.ttf"; sourceTree = "<group>"; };
-		D37E833E19DDB013000F6899 /* swoosh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swoosh.mp3; sourceTree = "<group>"; };
 		D37E834619DDD7E0000F6899 /* BattysBoneyardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardIcon.png; sourceTree = "<group>"; };
 		D37E834819DDD841000F6899 /* BattysBoneyardIcon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardIcon_120.png; sourceTree = "<group>"; };
 		D37E834A19DDD89E000F6899 /* BattysBoneyardIcon_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BattysBoneyardIcon_152.png; sourceTree = "<group>"; };
 		D37E834C19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattysBoneyardIcon_80@2x.png"; sourceTree = "<group>"; };
 		D37E835019DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattysBoneyardIcon_76@1x.png"; sourceTree = "<group>"; };
+		D3D3796F19DE5705008B99AD /* bone_longer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bone_longer.png; path = ../../../bone_longer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,30 +132,21 @@
 				D362259F19D71E460061A7A2 /* GameViewController.swift */,
 				D36225A119D71E460061A7A2 /* Main.storyboard */,
 				D36225A419D71E460061A7A2 /* Images.xcassets */,
-				D36225D619D71F960061A7A2 /* pipe1.png */,
-				D36225D719D71F960061A7A2 /* pipe2.png */,
 				D3497F5719DB170A00560637 /* BattysBoneyardTitle.png */,
 				D3497F6319DB321F00560637 /* backButton.png */,
 				D3432CD619DA72720015300A /* FrightFlight_BG.png */,
 				D37E834C19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png */,
 				D37E835019DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png */,
 				D37E834A19DDD89E000F6899 /* BattysBoneyardIcon_152.png */,
+				D3D3796F19DE5705008B99AD /* bone_longer.png */,
 				D37E834819DDD841000F6899 /* BattysBoneyardIcon_120.png */,
 				D37E834619DDD7E0000F6899 /* BattysBoneyardIcon.png */,
 				D3161C4B19DCFA69004AF757 /* newBone.png */,
 				D3161C5119DD00F0004AF757 /* noOutlineWhiteBone.png */,
-				D3161C4F19DCFF8F004AF757 /* newWhiteBones.png */,
-				D3161C4919DCAE8D004AF757 /* graveStoneGround.png */,
-				D3161C4719DCAC7C004AF757 /* newGraveGround_02.png */,
-				D3161C3519DC545F004AF757 /* skeleton.png */,
-				D3161C4319DC877B004AF757 /* skeleton_02.png */,
-				D37E833E19DDB013000F6899 /* swoosh.mp3 */,
 				D3497F5919DB1D6D00560637 /* startButton.png */,
-				D3161C5319DD0DC8004AF757 /* scaryMusic.mp3 */,
 				D3432CD819DA74350015300A /* NewGameOver.png */,
 				D3497F5D19DB2CF300560637 /* restartButton.png */,
 				D36225FC19D852670061A7A2 /* Scary Halloween Font.ttf */,
-				D36225DC19D71FA90061A7A2 /* score.png */,
 				D36225E019D71FA90061A7A2 /* flipFlopStudiosLogo.png */,
 				D36225BF19D71F580061A7A2 /* bat */,
 				D36225A619D71E460061A7A2 /* LaunchScreen.xib */,
@@ -220,11 +183,6 @@
 		D36225BF19D71F580061A7A2 /* bat */ = {
 			isa = PBXGroup;
 			children = (
-				D36225C019D71F580061A7A2 /* bat_dead.png */,
-				D36225C119D71F580061A7A2 /* bat_walk1.png */,
-				D36225C219D71F580061A7A2 /* bat_walk2.png */,
-				D36225C319D71F580061A7A2 /* bat_walk3.png */,
-				D36225C419D71F580061A7A2 /* bat_walk4.png */,
 				D36225C519D71F580061A7A2 /* eye_bat_dead.png */,
 				D36225C619D71F580061A7A2 /* eye_bat_walk1.png */,
 				D36225C719D71F580061A7A2 /* eye_bat_walk2.png */,
@@ -283,6 +241,7 @@
 				TargetAttributes = {
 					D362259319D71E460061A7A2 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = PBC6U53JC4;
 					};
 					D36225AC19D71E460061A7A2 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -316,7 +275,6 @@
 			files = (
 				D36225FD19D852670061A7A2 /* Scary Halloween Font.ttf in Resources */,
 				D37E834719DDD7E0000F6899 /* BattysBoneyardIcon.png in Resources */,
-				D36225CC19D71F580061A7A2 /* bat_walk2.png in Resources */,
 				D36225A819D71E460061A7A2 /* LaunchScreen.xib in Resources */,
 				D37E834B19DDD89E000F6899 /* BattysBoneyardIcon_152.png in Resources */,
 				D36225E719D71FA90061A7A2 /* flipFlopStudiosLogo.png in Resources */,
@@ -325,31 +283,18 @@
 				D37E834919DDD841000F6899 /* BattysBoneyardIcon_120.png in Resources */,
 				D37E834D19DDD8F9000F6899 /* BattysBoneyardIcon_80@2x.png in Resources */,
 				D3161C4C19DCFA69004AF757 /* newBone.png in Resources */,
-				D3161C5019DCFF8F004AF757 /* newWhiteBones.png in Resources */,
-				D36225D919D71F960061A7A2 /* pipe2.png in Resources */,
-				D37E833F19DDB013000F6899 /* swoosh.mp3 in Resources */,
-				D36225CA19D71F580061A7A2 /* bat_dead.png in Resources */,
-				D36225CD19D71F580061A7A2 /* bat_walk3.png in Resources */,
 				D3161C5219DD00F0004AF757 /* noOutlineWhiteBone.png in Resources */,
-				D3161C4819DCAC7C004AF757 /* newGraveGround_02.png in Resources */,
+				D3D3797019DE5705008B99AD /* bone_longer.png in Resources */,
 				D37E835119DDDCA7000F6899 /* BattysBoneyardIcon_76@1x.png in Resources */,
 				D3497F5819DB170A00560637 /* BattysBoneyardTitle.png in Resources */,
-				D3161C3619DC545F004AF757 /* skeleton.png in Resources */,
 				D36225D319D71F580061A7A2 /* eye_bat_walk4.png in Resources */,
 				D3497F5A19DB1D6D00560637 /* startButton.png in Resources */,
 				D36225D119D71F580061A7A2 /* eye_bat_walk2.png in Resources */,
 				D36225D219D71F580061A7A2 /* eye_bat_walk3.png in Resources */,
-				D3161C4A19DCAE8D004AF757 /* graveStoneGround.png in Resources */,
 				D36225CF19D71F580061A7A2 /* eye_bat_dead.png in Resources */,
-				D3161C5419DD0DC8004AF757 /* scaryMusic.mp3 in Resources */,
-				D36225E319D71FA90061A7A2 /* score.png in Resources */,
 				D362259C19D71E460061A7A2 /* GameScene.sks in Resources */,
 				D3497F6419DB321F00560637 /* backButton.png in Resources */,
-				D36225D819D71F960061A7A2 /* pipe1.png in Resources */,
-				D36225CB19D71F580061A7A2 /* bat_walk1.png in Resources */,
-				D36225CE19D71F580061A7A2 /* bat_walk4.png in Resources */,
 				D3432CD919DA74350015300A /* NewGameOver.png in Resources */,
-				D3161C4419DC877B004AF757 /* skeleton_02.png in Resources */,
 				D3432CD719DA72720015300A /* FrightFlight_BG.png in Resources */,
 				D36225A319D71E460061A7A2 /* Main.storyboard in Resources */,
 				D36225D019D71F580061A7A2 /* eye_bat_walk1.png in Resources */,
@@ -498,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FrightFlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = BattysBoneyard;
@@ -509,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FrightFlight/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = BattysBoneyard;
